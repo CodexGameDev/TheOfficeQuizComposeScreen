@@ -34,6 +34,7 @@ class MainActivity : ComponentActivity() {
 
                 questionText(question = "Who is the tallest member of the office?")
 
+
                 Column(
 
                     modifier = Modifier
