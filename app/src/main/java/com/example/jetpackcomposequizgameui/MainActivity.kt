@@ -1,6 +1,7 @@
 package com.example.jetpackcomposequizgameui
 
 import android.os.Bundle
+import android.widget.Space
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -47,6 +48,7 @@ class MainActivity : ComponentActivity() {
 
                 ) {
 
+                    Spacer(modifier = Modifier.padding(top = 30.dp))
                     QuestionButtons("Kevin")
                     QuestionButtons(question = "Kelly")
                     QuestionButtons(question = "Ryan")
@@ -119,7 +121,7 @@ fun DefaultPreview() {
 
 
         ) {
-
+            Spacer(modifier = Modifier.padding(top = 30.dp))
             QuestionButtons("Kevin")
             QuestionButtons(question = "Kelly")
             QuestionButtons(question = "Ryan")
